@@ -1,0 +1,61 @@
+body {
+	background-color: #010C18;
+	}
+#wrapper {
+  width: 900px;
+  margin: 30px auto;
+}
+nav {
+  display: flex;
+	width: 900px;
+	height: 50px;
+	background-color: #FFB203;
+}
+nav a:link,
+nav a:visited {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font: bold 18px Arial;
+}
+nav a:hover,
+nav a.active {
+  color: #A67401;
+  text-decoration: underline;
+}
+#container {
+  display: flex;
+	background-color: white;
+	text-align: justify;
+	font: 16px Arial;
+}
+#content {
+  width: 500px;
+  padding: 20px;
+}
+h1 {
+	font: bold 20px Arial;
+}
+.price {
+	margin-top: 10px;
+	width: 500px;
+}
+.price td,
+.price th {
+	border: 1px solid #000000;
+	text-align: center;
+}
+.price th {
+	background-color: #D5CEBE;
+}
+#sidebar {
+  padding: 20px;
+}
+footer {
+	height: 50px;
+	padding-top: 25px;
+	background-color: #FFB203;
+	font: 15px Arial;
+	color: white;
+  text-align: center;
+}
